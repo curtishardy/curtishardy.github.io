@@ -146,6 +146,10 @@ a.project {
 .project--test-small {
   background-image: url('../img/2.jpg');
 }
+.project-details {
+  margin-left: 0;
+  margin-right: 0;
+}
 .project-title {
   font-family: 'din 1451', sans-serif;
   font-size: 18px;
@@ -160,8 +164,32 @@ a.project {
   color: #ffffff;
   line-height: 1;
   text-align: center;
+  margin-top: 5px;
 }
-
+.project-live-link {
+  font-family: 'din 1451', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  float: right;
+  margin-top: 15px;
+}
+.project-source-link {
+  font-family: 'din 1451', sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  float: left;
+  margin-top: 15px;
+}
 
 
 .contact-text {
@@ -170,7 +198,7 @@ a.project {
   font-size: 16px;
   color: #111111;
   line-height: 1;
-  text-align: center;
+  text-align: justify;;
   text-transform: uppercase;
   margin: 0;
   word-wrap: normal;
