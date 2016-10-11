@@ -93,6 +93,11 @@ p {
   margin: 0;
   word-wrap: normal;
 }
+@media (max-width: 767px) {
+  .portrait {
+    margin-top: 10px;
+  }
+}
 .project {
   height: 260px;
   max-height: 260px;
