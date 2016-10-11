@@ -158,13 +158,14 @@ a.project {
 .project:hover > .project-background{
   transform: translateY(0px);;
 }
-/* Project tests */
+/* Individual projects */
 .project--test-large {
   background-image: url('../img/1.jpg');
 }
 .project--test-small {
   background-image: url('../img/2.jpg');
 }
+/* /Individual projects */
 .project-details {
   margin-left: 0;
   margin-right: 0;
@@ -196,8 +197,6 @@ a.project {
   padding: 10px;
   margin-top: 15px;
 }
-
-
 .contact-text {
   width: 100%;
   font-family: 'baskerville', sans-serif;
@@ -235,4 +234,28 @@ a.project {
   padding: 11px 10px;
   outline: none;
   border: 0;
+}
+.live-link {
+  background-color: #3399cc;
+  font-family: 'din 1451', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.source-link {
+  background-color: #7766cc;
+  font-family: 'din 1451', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .live-link {
+    margin-top: 20px;
+  }
 }
