@@ -15,6 +15,9 @@
   color: #ffffff;
 }
 /* Nav */
+ul {
+  padding: 0;
+}
 .nav {
   width: 100%;
   position: fixed;
@@ -52,6 +55,11 @@
 }
 .nav ul li a:hover:after {
   width: 100%;
+}
+@media (max-width: 400px) {
+  .nav ul {
+    font-size: 14px;
+  }
 }
 /* Content */
 .container {
@@ -95,7 +103,7 @@ p {
 }
 @media (max-width: 767px) {
   .portrait {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 .project {
@@ -213,6 +221,11 @@ a.project {
 @media (max-width: 767px) {
   .contact-text {
     font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .contact-text {
+    font-size: 10px;
   }
 }
 .copy-button {
