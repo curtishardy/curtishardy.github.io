@@ -168,6 +168,12 @@ a.project {
 .project--twitch_api {
   background-image: url('../img/projects/twitch_api/index_image.jpg');
 }
+.project--portfolio_1 {
+  background-image: url('../img/projects/twitch_api/index_image.jpg');
+}
+.project--portfolio_2 {
+  background-image: url('../img/projects/twitch_api/index_image.jpg');
+}
 /* /Individual projects */
 .project-details {
   margin-left: 0;
@@ -257,8 +263,8 @@ a.project {
   padding: 15px;
   text-transform: uppercase;
 }
-.single-image-container {
-  margin-top: 20px;
+.site-image-fix {
+  margin-bottom: 20px;
 }
 @media (max-width: 767px) {
   .live-link {
