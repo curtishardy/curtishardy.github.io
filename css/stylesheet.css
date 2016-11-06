@@ -160,10 +160,13 @@ a.project {
 }
 /* Individual projects */
 .project--test-large {
-  background-image: url('../img/1.jpg');
+  background-image: url('../img/placeholders/1.jpg');
 }
 .project--test-small {
-  background-image: url('../img/2.jpg');
+  background-image: url('../img/placeholders/2.jpg');
+}
+.project--twitch_api {
+  background-image: url('../img/projects/twitch_api/index_image.jpg');
 }
 /* /Individual projects */
 .project-details {
@@ -253,6 +256,9 @@ a.project {
   text-align: center;
   padding: 15px;
   text-transform: uppercase;
+}
+.single-image-container {
+  margin-top: 20px;
 }
 @media (max-width: 767px) {
   .live-link {
